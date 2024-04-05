@@ -1,0 +1,47 @@
+{
+  "name": "csv-json-tools",
+  "version": "0.0.1",
+  "description": "CSV to JSON",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "converter",
+    "csvjson",
+    "csvtojson",
+    "csv parser",
+    "json parser",
+    "csv2json",
+    "json converter",
+    "csv converter",
+    "data conversion",
+    "file conversion",
+    "data transformation",
+    "file transformation",
+    "csv parsing",
+    "json parsing",
+    "csv processing",
+    "json processing",
+    "data manipulation",
+    "data format conversion",
+    "file format conversion",
+    "csv manipulation",
+    "json manipulation"
+],
+  "author": "underctrl",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
