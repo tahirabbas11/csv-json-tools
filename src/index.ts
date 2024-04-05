@@ -15,7 +15,7 @@ export async function csvToJson(csvFilePath: string, separator: string = ','): P
         }
 
         const lines = csvData.split('\n');
-        const headers = lines[0].trim().split(separator).map(header => header.trim());
+        const headers = lines[0].trim().split(separator).map(header => header.trim().replace(/\s/g, '_'));
         const jsonData: any[] = [];
 
         for (let i = 1; i < lines.length; i++) {
@@ -36,3 +36,18 @@ export async function csvToJson(csvFilePath: string, separator: string = ','): P
         return []; // or return { error: error.message } if you prefer object
     }
 }
+
+const csvFilePath = 'sample_2.csv';
+
+// If you want to use a separator other than ",", you can specify it here like this: const separator = ";" etc
+const separator = ";"
+// Call the csvToJson function with the path to your CSV file and optional separator
+csvToJson(csvFilePath)
+  .then(jsonData => {
+    // Do whatever you want with the JSON data here
+    console.log("Converted JSON data:",jsonData);
+  })
+  .catch(error => {
+    // Handle any errors that occur during conversion
+    console.error("An error occurred:", error);
+  });
