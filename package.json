@@ -33,7 +33,7 @@
     "file format conversion",
     "csv manipulation",
     "json manipulation"
-],
+  ],
   "author": "underctrl",
   "license": "MIT",
   "devDependencies": {
@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security",
+    "json-from-csv": "^0.0.4",
     "path": "^0.12.7"
   }
 }
