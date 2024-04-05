@@ -6,12 +6,12 @@ This Node.js module provides a function to convert CSV (Comma-Separated Values) 
 ## Installation
 To use this module, install it via npm:
 ```bash
-npm install csv-json-tools
+npm install json-from-csv
 ```
 
 ## Example
 ```bash
-const { csvToJson } = require('csv-json-tools');
+const { csvToJson } = require('json-from-csv');
 
 const csvFilePath = 'grades.csv';
 
