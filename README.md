@@ -27,3 +27,15 @@ csvToJson(csvFilePath)
 - The CSV file must have a '.csv' extension.
 - Empty rows in the CSV file are skipped during conversion.
 - Leading and trailing spaces in header names and data values are trimmed.
+
+## Authors
+
+- [@tahirabbas11](https://github.com/tahirabbas11)
+## Contributing
+
+- Contributions are welcome! To contribute:
+  - Fork the repository.
+  - Make changes.
+  - Submit a pull request (PR).
+  
+Click [here](https://github.com/tahirabbas11/csv-json-tools) to reach the repository, Please ensure your PR follows these steps.
